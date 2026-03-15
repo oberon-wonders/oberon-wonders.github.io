@@ -1,0 +1,17 @@
+#------------------------------------------#
+# .GITIGNORE FOR OBERON WONDERS USER PAGE  #
+#------------------------------------------#
+
+# This .gitignore file is specific to the user Github Pages for Oberon Wonders 
+# Cf. [`oberon-wonders.github.io` repository](https://github.com/oberon-wonders/oberon-wonders.github.io.git)
+
+
+
+# VS Code workspace settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
