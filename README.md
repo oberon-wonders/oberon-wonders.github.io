@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Oberon Wonders</h1>
-  <img src="images/oberon-logo.png" width="200">
+  <img src="images/oberon-grey.png" width="150">
   <p><em>A digital tavern for storytellers, worldbuilders, and adventurers. <br>Worlds, campaigns, and tools for collaborative storytelling.</em></p>
 </div>
 
