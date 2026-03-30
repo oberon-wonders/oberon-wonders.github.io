@@ -1,0 +1,208 @@
+body {
+    background: rgba(6, 6, 6);
+    color: rgb(210, 190, 170);
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 1.8rem;
+    margin: 0 3rem 0 3rem;
+}
+
+strong {
+    color: rgb(255, 179, 65);
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: inherit; 
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-height: fit-content;
+    padding: 1rem 0 1rem 0;
+    background: rgb(6, 6, 6);
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30%;
+    align-items: center;
+    max-height: 3rem;
+}
+
+#logo-image {
+    max-width: 3rem;
+    max-height: 3rem;
+    order: -1;
+}
+
+/* TODO: Figure out a way to make logo text not wrap */
+#logo-text {
+    margin: 1rem;
+}
+
+header > nav {
+    flex-basis: 50%;
+    max-height: 3rem;
+    align-content: center;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    list-style-type: none;
+}
+
+header li > a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+main > section {
+    padding: 10% 0 10% 0;
+    border-bottom: 1px solid rgb(20, 20, 20);
+}
+
+main > h1 {
+    display: none;
+}
+
+
+#intro > h2 {
+    display: none;
+}
+
+#projects-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 18%;
+    flex-grow: 1;
+    min-height: 30rem;
+    background: rgba(10, 10, 10);
+    justify-content: space-between;
+    /* TODO : make it so there is no margin to the left of first item of each row, 
+    and to the bottom of all items of the last row. */
+    margin: 1rem;
+    border: 3px solid rgba(64, 64, 64, 0.75);
+    border-radius: 1rem;
+    box-shadow: inset 0 0 2px black, inset 0 0 4px black, inset 0 0 8px black;
+}
+
+
+article > h3 {
+    padding: 1rem;
+    flex-grow: 1;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 1), 0 0 2px rgba(0, 0, 0, 0.8), 0 0 4px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 0, 0, 0.2), 0 0 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
+    margin: 0;
+    border-radius: 1rem 1rem 0 0;
+}
+
+article > div.teaser {
+    visibility: hidden;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 1rem;
+}
+
+article > h3 > a {
+    text-decoration: none;
+    color: rgb(210, 190, 170);
+}
+
+#chronicles {
+    order: 1;
+    background: url(../images/chronicles.jpg) no-repeat 38% 0% / 450%;
+}
+
+#fractured-worlds {
+    order: 2;
+    background: url(../images/fractured-worlds.png) no-repeat 50% 50% / cover;
+}
+
+#roncelin {
+    order: 6;
+    background: url(../images/roncelin.png) no-repeat 55% 55% / 600% 250%;
+}
+
+#blackmoor {
+    order: 5;
+    background: url(../images/blackmoor.jpg) no-repeat 32% 0% / cover;
+}
+
+#farpoint {
+    order: 3;
+    background: url(../images/farpoint.jpg) no-repeat 3% 0% / cover;
+}
+
+#shroud-of-dragons {
+    order: 7;
+    background: url(../images/shroud-of-dragons.webp) no-repeat 50% 0% / cover;
+}
+
+#ars-arcana {
+    order: 4;
+    background: url(../images/ars-arcana.jpg) no-repeat 50% 50% / cover;
+}
+
+#axis-obscura {
+    order: 8;
+    background: url(../images/axis-obscura.jpg) no-repeat 10% 0% / cover;
+}
+
+
+
+.tooltip{
+    display: none;
+}
+
+
+
+
+/* TESTING */
+/* header {
+    background: rgba(132, 0, 255, 0.2);
+}
+header * {
+    background: rgba(132, 0, 255, 0.2);
+}
+
+main * {
+    background: rgba(0, 255, 34, 0.1);
+}
+
+footer * {
+    background: rgba(0, 47, 255, 0.2);
+} */
