@@ -137,6 +137,10 @@ article > div.teaser {
     padding: 1rem;
 }
 
+article:hover > div.teaser {
+    visibility: visible;
+}
+
 article > h3 > a {
     text-decoration: none;
     color: rgb(210, 190, 170);
